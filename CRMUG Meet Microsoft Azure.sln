@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyVaultPlugin", "KeyVaultPlugin\KeyVaultPlugin.csproj", "{A45384B9-B0DE-41BA-867D-F66418D6B88D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D365Functions", "D365Functions\D365Functions.csproj", "{99CE6ECB-5106-4E86-AD1F-969EEBF1A406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInsightsPlugin", "AppInsightsPlugin\AppInsightsPlugin.csproj", "{6CED5980-C889-401C-B2DE-0F96DCB522E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppInsightsWeb", "AppInsightsWeb\AppInsightsWeb.csproj", "{A519548B-EC54-42E5-8290-4228EC6117CC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PluginShared", "PluginShared\PluginShared.shproj", "{D3800DB1-26A3-4A26-A3E4-68BDD9591703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginShared.Tests", "PluginShared.Tests\PluginShared.Tests.csproj", "{969795D7-987B-4197-A501-B85660784090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginSharedTestHelper", "PluginSharedTestHelper\PluginSharedTestHelper.csproj", "{D1ED7C2F-608A-4B6D-91CF-C4361AFC810C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseDynamicUrl", "ParseDynamicUrl\ParseDynamicUrl.csproj", "{C71B09F5-240B-4837-A143-C4931582BB12}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PluginShared\PluginShared.projitems*{6ced5980-c889-401c-b2de-0f96dcb522e8}*SharedItemsImports = 4
+		PluginShared\PluginShared.projitems*{a45384b9-b0de-41ba-867d-f66418d6b88d}*SharedItemsImports = 4
+		PluginShared\PluginShared.projitems*{d1ed7c2f-608a-4b6d-91cf-c4361afc810c}*SharedItemsImports = 4
+		PluginShared\PluginShared.projitems*{d3800db1-26a3-4a26-a3e4-68bdd9591703}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A45384B9-B0DE-41BA-867D-F66418D6B88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45384B9-B0DE-41BA-867D-F66418D6B88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45384B9-B0DE-41BA-867D-F66418D6B88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45384B9-B0DE-41BA-867D-F66418D6B88D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CE6ECB-5106-4E86-AD1F-969EEBF1A406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CE6ECB-5106-4E86-AD1F-969EEBF1A406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CE6ECB-5106-4E86-AD1F-969EEBF1A406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CE6ECB-5106-4E86-AD1F-969EEBF1A406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CED5980-C889-401C-B2DE-0F96DCB522E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CED5980-C889-401C-B2DE-0F96DCB522E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CED5980-C889-401C-B2DE-0F96DCB522E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CED5980-C889-401C-B2DE-0F96DCB522E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A519548B-EC54-42E5-8290-4228EC6117CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A519548B-EC54-42E5-8290-4228EC6117CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969795D7-987B-4197-A501-B85660784090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969795D7-987B-4197-A501-B85660784090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969795D7-987B-4197-A501-B85660784090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969795D7-987B-4197-A501-B85660784090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1ED7C2F-608A-4B6D-91CF-C4361AFC810C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ED7C2F-608A-4B6D-91CF-C4361AFC810C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ED7C2F-608A-4B6D-91CF-C4361AFC810C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ED7C2F-608A-4B6D-91CF-C4361AFC810C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71B09F5-240B-4837-A143-C4931582BB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71B09F5-240B-4837-A143-C4931582BB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71B09F5-240B-4837-A143-C4931582BB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71B09F5-240B-4837-A143-C4931582BB12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4733E73A-C5DE-47FC-9C31-B7775AB30D5E}
+	EndGlobalSection
+EndGlobal
