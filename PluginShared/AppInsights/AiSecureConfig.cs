@@ -1,5 +1,17 @@
 ﻿using System.Runtime.Serialization;
 
+/*
+ {
+ "InstrumentationKey": "Your Key",
+ "AiEndpoint": "https://dc.services.visualstudio.com/v2/track",
+ "LogTraces": true,
+ "LogMetrics": true,
+ "LogEvents": true,
+ "LogExceptions": true
+}
+*/
+
+
 [DataContract]
 public class AiSecureConfig
 {
